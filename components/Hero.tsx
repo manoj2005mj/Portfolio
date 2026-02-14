@@ -69,11 +69,8 @@ const Hero: React.FC = () => {
         >
           <div className="relative w-72 h-72 md:w-96 md:h-96">
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-2xl rotate-6 opacity-50 blur-lg"></div>
-            {/* 
-              IMPORTANT: Ensure your photo is named 'profile.jpg' and placed in the root/public directory.
-            */}
             <img 
-              src="Assets/image.png" 
+              src="/profile.png" 
               alt="Manoj M J" 
               className="relative w-full h-full object-cover rounded-2xl border-4 border-white dark:border-slate-800 shadow-2xl z-10"
               onError={(e) => {
